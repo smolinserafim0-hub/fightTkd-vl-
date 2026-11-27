@@ -2220,7 +2220,7 @@
 
                 console.error(error);
                 formStatus.className = 'form-status error';
-                formStatus.textContent = '❌ Ошибка: ' + error.message;
+                formStatus.textContent = '❌ Ошибка отправки. Попробуйте позже или позвоните нам.';
             } finally {
                 submitBtn.disabled = false;
                 submitBtn.innerHTML = originalText;
